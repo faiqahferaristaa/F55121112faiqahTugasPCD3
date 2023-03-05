@@ -17,7 +17,7 @@ if img1.shape[2] == 3 and img2.shape[2] == 3:
 # Compute difference image
 diff = cv2.absdiff(img1, img2)
 
-# Display input images and difference image
+# Display input images and difference image 
 cv2.imshow('Difference Image', diff)
 
 # Display histogram of difference image
